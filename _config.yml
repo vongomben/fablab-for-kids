@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /fablab-for-kids
+exclude: ['README.md']
