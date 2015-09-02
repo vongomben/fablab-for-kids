@@ -3,25 +3,27 @@
 <head>
 <meta charset="utf-8">
 <title>Fablab For Kids</title>
+<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
+
 </head>
 
 <body>
 
 <header>
+
 	<h1>Fablab For Kids</h1>
-	<nav>
-		<ul>
-			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li><a href="{{site.baseurl}}/news.html">News</a></li>
-		</ul>
-
-
-	</nav>
-
+	{% include nav.html navclass = 'nav-top' %}
 
 </header>
 
 {{content}}
+
+<footer>
+
+	{% include nav.html navclass = 'nav-bottom' %}
+	<p>Fablab For Kids</p>
+
+</footer>
 
 </body>
 
